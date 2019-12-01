@@ -314,7 +314,13 @@ img {
 	}
 	.strengths_retangle_block .item .item-r .name a {
 		font-size: 14px;
-	}
+    }
+    .products_blocks_slideshow_hot>.item {
+        width: calc(100% / 2 - 14px)!important;
+    }
+    .products_blocks_slideshow_hot>.item:nth-child(3) {
+        display: none;
+    }
 }
 @media only screen and (max-width: 1140px){
 	.header_wrapper_wrap {
@@ -396,7 +402,10 @@ img {
 	.strengths_retangle_block .item {
 		width: calc(50% - 0px) !important;
 		margin: 5px 0 !important;
-	}
+    }
+    .main_wrapper .product_grid .item {
+        width: 50%!important;
+    }
 }
 @media screen and (max-width: 600px){
 	.strengths_retangle_block .item {
@@ -412,7 +421,10 @@ img {
 	.regions_search{
 		float: left;
 		width: 300px;
-	}
+    }
+    .cat-title .nav-tabs {
+        display: none!important;
+    }
 }
 @media only screen and (max-width: 647px){
 	.regions_search{
@@ -425,7 +437,39 @@ img {
 		float: left;
 		width: 100%;
 		margin-left: 10px;
-	}
+    }
+    .products_blocks_slideshow_hot>.item:nth-child(3) {
+        display: block!important;
+    }
+    .products_blocks_slideshow_hot>.item {
+        width: calc(100% / 1 - 14px)!important;
+        margin-bottom: 10px!important;
+    }
+    .main_wrapper_home .product_grid .item:nth-child(5) {
+        display: none;
+    }
+    
+}
+@media only creen and (max-width:500px){
+    .products_blocks_slideshow_hot>.item:nth-child(3) {
+        display: block!important;
+    }
+    .products_blocks_slideshow_hot>.item {
+        width: calc(100% / 1 - 14px)!important;
+        margin-bottom: 10px!important;
+    }
+    .main_wrapper_home .product_grid .item:nth-child(5) {
+        display: none;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 600px){
+    .main_wrapper_home .product_grid .item:nth-child(5) {
+        display: none;
+    }
+    .main_wrapper_home .product_grid .item {
+        width: 25%;
+        border-bottom: 1px solid #E7E7E7;
+    }
 }
 /*============RESPONSIVE=============*/
 /*============SLIDER=================*/
