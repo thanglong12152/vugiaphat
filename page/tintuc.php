@@ -1,4 +1,3 @@
-<?php require_once "header.php"; ?>
 <div class="breadcrumbs">
 			<div class="container cls">
 				<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
@@ -489,4 +488,3 @@
 				</div>
 				<!-- 	 -->
 			</div>
-<?php require_once "footer.php"; ?>
