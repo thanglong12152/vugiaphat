@@ -204,7 +204,7 @@
                               class="mb_arrow closed"></span>
                         </li>
                         <li class="level_0 " id="menu-bon-tam">
-                           <a href="https://vugiaphat.vn/bon-tam-pc2.html"
+                           <a href="localhost:8888/vugiaphat/page/news.php"
                               title="Tin tức">
                               <span class="icon_svg cls">
                                  <svg aria-hidden="true" data-prefix="far" data-icon="newspaper" role="img"
