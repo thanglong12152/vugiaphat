@@ -17,7 +17,7 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+</div>
 		<div class="main_wrapper container">
 			<div class="main-area main-area-2col-right">
 				<div class="clear"></div>

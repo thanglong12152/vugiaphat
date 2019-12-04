@@ -54,3 +54,9 @@ $(document).ready(function() {
       ]
     });
   });
+
+  $(document).ready(function(){
+    $(".close").click(function(){
+      $(".filters_in_field_inner.item").addClass("activated");
+    });
+  });
